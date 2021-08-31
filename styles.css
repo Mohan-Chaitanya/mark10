@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,200&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+  font-weight: bolder;
+  background-color: rgb(94, 95, 95);
+}
+
+input {
+  height: 2rem;
+  border: 2px solid black;
+  margin: 1rem;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: large;
+}
+
+button {
+  width: 5rem;
+  top: 50%;
+  left: 45%;
+  height: 2rem;
+  background-color: rgb(175, 175, 175);
+  border: 1px solid black;
+  transition: 1s;
+  box-shadow: 1px 1px 1px 0px;
+}
+
+button:hover {
+  background-color: rgb(163, 144, 121);
+}
+
+th,
+td {
+  border: 1px solid black;
+  min-width: 2.5rem;
+  max-height: auto;
+  justify-content: space-evenly;
+}

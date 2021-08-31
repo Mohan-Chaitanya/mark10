@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Balance-Checker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Balance Checker App</h2>
+      <p>
+        Enter your bill amount and the money you give.The app will give you the
+        balance & the notes you get
+      </p>
+      <label for="bill-amount">Bill-Amount:</label>
+      <input type="number" id="bill-amount" />
+      <label for="cash-given">Given Cash:</label>
+      <input type="number" id="cash-given" />
+      <div>
+        <button id="check-btn">Check</button>
+        <button id="reset">Reset</button>
+      </div>
+      <div id="err-message"></div>
+
+      <h5 id="return-amount"></h5>
+
+      <table>
+        <caption>
+          Return Change
+        </caption>
+        <tr>
+          <th>No of notes</th>
+          <td id="no-of-notes"></td>
+          <td id="no-of-notes"></td>
+          <td id="no-of-notes"></td>
+          <td id="no-of-notes"></td>
+          <td id="no-of-notes"></td>
+          <td id="no-of-notes"></td>
+          <td id="no-of-notes"></td>
+          <td id="no-of-notes"></td>
+        </tr>
+        <tr>
+          <th>Notes</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>50</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
